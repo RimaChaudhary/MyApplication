@@ -39,6 +39,8 @@ public class MyRvAdapter extends RecyclerView.Adapter<MyRvAdapter.MyHolder> {
         holder.tvCat.setText(food.getCateg());
         holder.tvPrice.setText(food.getPrice());
         holder.imageView.setImageResource(food.getImg());
+
+
     }
 
     @Override
